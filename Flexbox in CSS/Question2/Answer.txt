@@ -1,0 +1,69 @@
+1. JUSTIFY-CONTENT : a. It is used in case of flexbox when we have to align items on the main axis i.e. 
+                     bydefault horizontal and can be changed using flex direction property.
+
+                     b. This property is used at parent level which is marked as display flex to align 
+                     items/childs under it on the main axis.
+
+                     c. Justify-content can be set to flex-start, flex-end and center etc., we can also 
+                     set it for spacing between items as space-around, space-between and space-evenly etc.
+
+                     d. SYNTAX: .parent{
+                                        display:flex;
+                                        justify-content:center;
+                                       }
+
+
+2. ALIGN-ITEMS     : a. It is used in case of flexbox when we have to align items on the cross axis i.e.
+                     perpendicular to main axis and bydefault the cross axis is set to be vertical axis.
+
+                     b. This property is also given at parent level which is marked as display flex to 
+                     align items/childs under it on the cross axis.
+
+                     c. Align-items can be set to flex-start, flex-end and center etc., we can also 
+                     set it for spacing between items as space-around, space-between and space-evenly etc.
+                    
+                    
+                     d. SYNTAX: .parent{
+                                        display:flex;
+                                        align-items:center;
+                                       }
+
+
+3. GAP            : a. As the name suggests gap property in flexbox is used to set gap between the child items.
+                    
+                    b. This property is also given at parent level which is marked as display flex.
+                    
+                    c. We can also set the gap between rows and columns seprately by using the individual gap 
+                    properties i.e. row-gap and column gap respectively.
+
+                    d. SYNTAX: .parent{
+                                        display:flex;
+                                        gap : 2px;
+                                       }
+
+
+4. FLEX-DIRECTION: a. Flex-direction is a property used in flex-box container to determine the direction
+                      of the main-axis in the flexbox.
+                   
+                   b. For making main-axis as horizontal we can mark flex-direction as row and for making
+                      main axis as vertical we can mark flex-direction as column.
+
+                   c. By-default the flex-direction is set to be row which can be changed according to our
+                      usecase.
+
+                   d.  SYNTAX: .parent{
+                                        display:flex;
+                                        flex-direction:row;
+                                       }
+
+
+5. FLEX-WRAP   : a. BY-defalut flex places all items in a single line i.e. the main axis.
+                 b. i.e. by-default flex wrap is set to be no-wrap.
+                 c. Now, if we want to move the extra item to the next line we have to wrap it by using
+                 Flex-wrap:wrap;.
+                 d. Flex-wrap can be set to no-wrap, wrap and wrap-reverse.
+                 e. According to child width it will wrap child items.
+                 f.  SYNTAX: .parent{
+                                        display:flex;
+                                        flex-wrap:no-wrap;
+                                       }

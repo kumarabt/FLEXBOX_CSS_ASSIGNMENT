@@ -1,0 +1,11 @@
+The main diffrence between using flexbox and grid is that in grid you have the access to 2-dimensional layouting,
+which is not in the case of flexbox.
+
+So, using grid you can layout your webpage in a 2-dimensional system and on the top of that grid, 2-dimensional
+layouting system is completely responsive as well in both horizontal and vertical directions as well, which is 
+not the case in flexbox.
+
+
+Since, grid is very powerful as we can layouting in 2-dimensional fashion so we will use the grid layouting system
+over the flexbox layout when we want to design 2-dimensional structure of webpage and we want our webpage to 
+be responsive in both horizontal and vertical directions as well.

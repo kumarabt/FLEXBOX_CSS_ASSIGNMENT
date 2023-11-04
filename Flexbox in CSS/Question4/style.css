@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+    background-color:#202842;
+}
+
+.parent{
+    display:flex;
+    width:962px;
+    height:427px;
+    padding: 32px, 48px, 32px, 48px;
+    gap: 32px;
+    background-color: #F4F2FD;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width:262px;
+    height:363px;
+    padding: 32px;
+    border-radius: 8px;
+    gap: 16px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    justify-content: center;
+}
+
+.card2{
+background-color: #202842;
+}
+
+.child1{
+width:198px;
+height:306px;
+gap: 32px;
+}
+
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    width:157px;
+    height:40px;
+    font-weight: 700px;
+    padding: 4px, 8px, 4px, 8px;
+    gap:10px;
+    color: #202842;
+}
+
+.subheading{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    line-height: 16px;;
+    font-weight: 500px;
+    width: 107px;
+    height: 16px;
+    padding: 0px, 8px, 0px, 8px;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.child2{
+    height:36px;
+    padding: 0px, 8px, 0px, 8px;
+    gap: 10px;
+    font-size: 36px;
+    line-height: 36px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    color: #202842;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.child3{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 8px;
+    display:flex;
+    flex-direction: column;   
+    row-gap: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+img{
+    width:22px;
+    height: 22px; 
+    padding-top:5px ;
+    margin-right: 5px;
+}
+
+button{
+    width:156px;
+    height:38px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 50px;
+    gap: 5px;
+    background-color: #202842;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.lightbutton{
+    background-color: #FFFFFF;
+    color:#202842;
+}
+
+.heading2,.subheading2,.light{
+    color: #FFFFFF;
+}
